@@ -1,0 +1,42 @@
+.main__container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+.container {
+    width: 800px;
+    height: 400px;
+    background: #c0bbbb;
+    display: flex;
+}
+
+.container__block {
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 30px 10px 30px 10px;
+    border: 1px solid black;
+}
+
+.block__label,
+.block__input,
+.block__button,
+.block__text{
+    position: relative;
+    margin: 10px auto 10px auto;
+    border: 0;
+    width: 380px;
+    height: 40px;
+    font-family: Arial, sans-serif;
+    user-select: none;
+    font-size: 30px;
+    text-align: center;
+}
+.block__text{
+    height: 155px;
+    font-size: 14px;
+    overflow: auto;
+}
